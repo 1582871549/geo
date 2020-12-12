@@ -71,16 +71,6 @@
             <groupId>org.geotools</groupId>
             <artifactId>gt-epsg-hsql</artifactId>
             <version>${geotools.version}</version>
-            <exclusions>
-                <exclusion>
-                    <artifactId>si-quantity</artifactId>
-                    <groupId>si.uom</groupId>
-                </exclusion>
-                <exclusion>
-                    <artifactId>indriya</artifactId>
-                    <groupId>tech.units</groupId>
-                </exclusion>
-            </exclusions>
         </dependency>
         <!-- Provides support for PostGIS. Note the different groupId -->
         <dependency>

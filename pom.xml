@@ -66,6 +66,12 @@
             <scope>test</scope>
         </dependency>
 
+        <!-- httpclient -->
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+        </dependency>
+
         <!-- Provides map projections -->
         <dependency>
             <groupId>org.geotools</groupId>

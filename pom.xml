@@ -95,12 +95,6 @@
             <groupId>org.geotools</groupId>
             <artifactId>gt-swing</artifactId>
             <version>${geotools.version}</version>
-            <exclusions>
-                <exclusion>
-                    <artifactId>jts-core</artifactId>
-                    <groupId>org.locationtech.jts</groupId>
-                </exclusion>
-            </exclusions>
         </dependency>
 
         <dependency>
